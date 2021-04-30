@@ -1,0 +1,14 @@
+$descuento: green;
+.uno {
+    color: white;
+    font-size: 30px;
+    background-color: $descuento;
+}
+.dos {
+    @extend .uno;
+    background-color: darken($descuento, 15%);
+}
+.tres {
+    @extend .dos;
+    background-color: darken($descuento, 20%);
+}

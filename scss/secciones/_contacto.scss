@@ -1,0 +1,107 @@
+img {
+    max-width: 100%;
+}
+h2 {
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+/* seccion contacto */
+#contacto {
+    -webkit-box-shadow: 0 29px 75px -25px rgb(69, 96, 119 / 60%);
+    -moz-box-shadow: 0 29px 75px -25px rgb(69, 96, 119 / 60%);
+    box-shadow: 0 29px 75px -25px rgb(69, 96, 119 / 60%);
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.centrar-columnas {
+    justify-content: center;
+}
+.columnas-1 {
+    flex: 0 0 100%;
+}
+.columnas-2{
+    flex: 0 0 calc(83.3% -1rem);
+}
+.formulario-contacto {
+    background-color: #fff;
+    padding: 8rem;
+    width: 95%;
+    .campo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    }
+    label {
+        padding-bottom: 1rem;
+    }
+    input {
+    width: 100%;
+    padding: 1rem;
+    }
+    textarea {
+        margin: 0px;
+        min-height: 250px;
+        max-height: 250px;
+        height: 250px;
+        min-width: 100%;
+    }
+    .check {
+        justify-content: flex-start;
+        padding-top: 1rem;
+        label {
+            order: 1;
+            padding-left: 0.5rem; 
+        }  
+        input {
+            width: 18px; 
+        }
+    }
+}
+.estado_civil {
+    width: 100%;
+    height: 40px;
+}
+.date {
+    text-align: center;
+    color: #7F16C2;
+}
+
+.campo input {
+    &[type=submit], &[type=reset] {
+      font-weight: bold;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  
+    &[type=submit] {
+      border: 2px solid #7F16C2;
+    }
+  
+    &[type=reset] {
+      &:hover {
+        border: 2px solid #7F16C2;
+      }
+  
+      border: 2px solid #e1e1e1;
+    }
+  
+    &[type=submit] {
+      background-color: #7F16C2;
+      color: #fff;
+  
+      &:hover {
+        background-color: #650d9d;
+      }
+    }
+  }

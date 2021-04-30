@@ -1,0 +1,29 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+h1 {
+    font-size: 5rem;
+    margin: 3rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    strong {
+        color: blueviolet;
+    }
+}
+
+h2 {
+    @include subtitulo();
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.8s linear 0.2s;
+}
+p {
+    font-size: 18px;
+    line-height: 2;
+}

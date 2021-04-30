@@ -1,0 +1,304 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* Now 10px = 1rem! */ }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.uno, .dos, .tres {
+  color: white;
+  font-size: 30px;
+  background-color: green; }
+
+.dos, .tres {
+  background-color: #003400; }
+
+.tres {
+  background-color: #001a00; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+h1 {
+  font-size: 5rem;
+  margin: 3rem 0;
+  text-transform: uppercase;
+  font-weight: bold; }
+  h1 strong {
+    color: blueviolet; }
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.8s linear 0.2s; }
+
+p {
+  font-size: 18px;
+  line-height: 2; }
+
+.redes {
+  width: 187px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0; }
+  .redes img {
+    border-radius: 10px; }
+
+.site-header {
+  background-color: #222;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.site-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.site-search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px; }
+
+.logo {
+  max-width: 100%;
+  height: 50px;
+  cursor: pointer;
+  margin: 30px; }
+
+.flex-nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase; }
+
+.nav-taza {
+  background: #6f015d;
+  background: linear-gradient(90deg, #6f015d 0%, #9500ff 100%);
+  height: 58px; }
+  .nav-taza a {
+    text-decoration: none;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 2rem; }
+
+.hero {
+  height: 600px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -130px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+@keyframes zooms {
+  0%, to {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); } }
+
+.fuenteblanca {
+  background-color: #fff;
+  position: absolute;
+  left: 130px;
+  top: 180px;
+  padding: 15px;
+  border-radius: 15px;
+  animation: zooms 6s infinite; }
+
+.title-section {
+  text-align: center;
+  padding-top: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+
+/* PRODUCTOS */
+.cardprod {
+  -webkit-box-shadow: 10px 14px 62px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 10px 14px 62px 0px rgba(0, 0, 0, 0.71);
+  box-shadow: 10px 14px 62px 0px rgba(0, 0, 0, 0.71);
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 400px; }
+  .cardprod:hover {
+    border: 2px solid #333;
+    cursor: pointer; }
+  .cardprod img {
+    max-width: 100%;
+    width: 100%;
+    height: 312px;
+    border-radius: 15px 15px 0 0; }
+  .cardprod p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+    color: #7F16C2; }
+  .cardprod span.precio {
+    color: #ffce00;
+    font-size: 3rem; }
+  .cardprod a {
+    display: inline-block;
+    background-color: blueviolet;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    margin: 0;
+    margin-left: 2rem;
+    margin-top: 2rem; }
+
+.imagen-productos {
+  height: 600px;
+  background-image: url(../img/taza-cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -130px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5rem; }
+
+/* ACORDEON */
+.accordion-button {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #7F16C2; }
+
+.promociones {
+  margin-bottom: 1.5rem; }
+
+/* CATEGORIAS */
+.text-content {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 1.3rem; }
+
+img {
+  max-width: 100%; }
+
+h2 {
+  text-transform: uppercase;
+  padding-top: 5rem; }
+
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto; }
+
+/* seccion contacto */
+#contacto {
+  -webkit-box-shadow: 0 29px 75px -25px #456002;
+  -moz-box-shadow: 0 29px 75px -25px #456002;
+  box-shadow: 0 29px 75px -25px #456002; }
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.centrar-columnas {
+  justify-content: center; }
+
+.columnas-1 {
+  flex: 0 0 100%; }
+
+.columnas-2 {
+  flex: 0 0 calc(83.3% -1rem); }
+
+.formulario-contacto {
+  background-color: #fff;
+  padding: 8rem;
+  width: 95%; }
+  .formulario-contacto .campo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem; }
+  .formulario-contacto label {
+    padding-bottom: 1rem; }
+  .formulario-contacto input {
+    width: 100%;
+    padding: 1rem; }
+  .formulario-contacto textarea {
+    margin: 0px;
+    min-height: 250px;
+    max-height: 250px;
+    height: 250px;
+    min-width: 100%; }
+  .formulario-contacto .check {
+    justify-content: flex-start;
+    padding-top: 1rem; }
+    .formulario-contacto .check label {
+      order: 1;
+      padding-left: 0.5rem; }
+    .formulario-contacto .check input {
+      width: 18px; }
+
+.estado_civil {
+  width: 100%;
+  height: 40px; }
+
+.date {
+  text-align: center;
+  color: #7F16C2; }
+
+.campo input[type=submit], .campo input[type=reset] {
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase; }
+
+.campo input[type=submit] {
+  border: 2px solid #7F16C2; }
+
+.campo input[type=reset] {
+  border: 2px solid #e1e1e1; }
+  .campo input[type=reset]:hover {
+    border: 2px solid #7F16C2; }
+
+.campo input[type=submit] {
+  background-color: #7F16C2;
+  color: #fff; }
+  .campo input[type=submit]:hover {
+    background-color: #650d9d; }
+
+/* FOOTER */
+.bg-black {
+  background-color: #000 !important; }
+
+.col-3 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase; }
+
+.site-footer {
+  position: sticky;
+  top: 100%;
+  padding: 3rem;
+  margin-top: 4rem; }

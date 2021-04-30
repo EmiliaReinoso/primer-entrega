@@ -1,0 +1,17 @@
+/* FOOTER */
+.bg-black {
+    background-color: #000!important;
+}
+.col-3 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+} 
+.site-footer {
+    position: sticky;
+    top: 100%;
+    padding: 3rem;
+    margin-top: 4rem;
+}

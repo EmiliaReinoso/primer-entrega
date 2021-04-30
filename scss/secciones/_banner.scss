@@ -1,0 +1,34 @@
+.hero {
+    height: 600px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+@keyframes zooms{
+    0%,to{
+        transform:scale(1)
+    }
+    50%{
+        transform:scale(1.1)
+    }
+}
+.fuenteblanca {
+    background-color: #fff;
+    position: absolute;
+    left: 130px;
+    top: 180px;
+    padding: 15px;
+    border-radius: 15px;
+    animation: zooms 6s infinite;
+}
+.title-section {
+    text-align: center;
+    padding-top: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
